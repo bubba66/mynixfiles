@@ -37,6 +37,8 @@
     ranger
     geany
     pinentry-qt
+    terminator
+    xorg.xprop
 	
   ];
 
