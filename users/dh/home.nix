@@ -41,7 +41,7 @@
     xorg.xprop
     aspell
     aspellDicts.en
- 
+     
   ];
 
   # Let Home Manager install and manage itself.
