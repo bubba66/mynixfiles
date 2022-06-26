@@ -90,8 +90,11 @@
     htop
     neofetch
     ncdu
+    nordic
     qogir-theme
     qogir-icon-theme
+    tela-circle-icon-theme
+    tela-icon-theme
     gnome.gnome-tweaks
     gnomeExtensions.gsconnect
     curl
@@ -100,6 +103,7 @@
     evolution
     vivaldi
     gimp
+    sakura
        	
   ];
 
