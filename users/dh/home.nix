@@ -41,6 +41,7 @@
     xorg.xprop
     aspell
     aspellDicts.en
+    transmission-gtk
      
   ];
 

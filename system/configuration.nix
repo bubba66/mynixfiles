@@ -75,7 +75,7 @@
   users.users.dh = {
     isNormalUser = true;
     description = "Dave Haras";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "libvirtd" ];
   };
 
   # Allow unfree packages
@@ -104,6 +104,7 @@
     vivaldi
     gimp
     sakura
+    virt-manager
        	
   ];
 
@@ -145,7 +146,11 @@
   system.stateVersion = "22.05"; # Did you read the comment?
 
 # Virtualbox
-   virtualisation.virtualbox.host.enable = true;
-   users.extraGroups.vboxusers.members = [ "dh" ];
-   virtualisation.virtualbox.host.enableExtensionPack = true;
+#   virtualisation.virtualbox.host.enable = true;
+#   users.extraGroups.vboxusers.members = [ "dh" ];
+#   virtualisation.virtualbox.host.enableExtensionPack = true;
+# Virt-manager
+   virtualisation.libvirtd.enable = true;
+   programs.dconf.enable = true;
+ 
 }
