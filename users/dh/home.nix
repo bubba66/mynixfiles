@@ -42,7 +42,8 @@
     aspell
     aspellDicts.en
     transmission-gtk
-     
+    deja-dup
+          
   ];
 
   # Let Home Manager install and manage itself.
