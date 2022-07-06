@@ -43,7 +43,7 @@
     aspellDicts.en
     transmission-gtk
     deja-dup
-          
+    webcamoid          
   ];
 
   # Let Home Manager install and manage itself.
